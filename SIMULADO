@@ -1,0 +1,53 @@
+<!-- Cabeçalho -->
+<header>
+    <h1>Bem-vindo à Nossa Empresa</h1>
+    <p>"EMPRESA TAL".</p>
+  
+    <!-- Barra de pesquisa -->
+    <form>
+      <label for="search">Pesquisar:</label>
+      <input type="text" name="search" placeholder="Pesquise aqui">
+      <button type="submit">Pesquisar</button>
+    </form>
+  
+    <!-- CALL TO ACTION -->
+    <button class="call-to-action">Saiba Mais</button>
+  </header>
+  
+  <!-- Citações dos Clientes -->
+  <section>
+    <h2>Citações dos Clientes</h2>
+    <p>"Adorei o novo produto! Foi fácil de usar e me ajudou muito no meu trabalho diário."</p>
+    <p>"O atendimento ao cliente foi ótimo! Eles responderam todas as minhas perguntas rapidamente."</p>
+  </section>
+  
+  <!-- Sobre nós -->
+  <section>
+    <h2>Sobre nós</h2>
+    <p>"FORNECEMOS TAIS SERVIÇOS"</p>
+  </section>
+  
+  <!-- Informações de contato -->
+  <section>
+    <h2>Informações de contato</h2>
+    <ul>
+      <li>Endereço: Av. Paulista, 1000 - São Paulo, SP</li>
+      <li>Telefone: (11) 1234-5678</li>
+      <li>Email: contato@nossaempresa.com</li>
+    </ul>
+  </section>
+  
+  <!-- Revendedores autorizados -->
+  <section>
+    <h2>Revendedores autorizados</h2>
+    <ul>
+      <li>Loja A</li>
+      <li>Loja B</li>
+      <li>Loja C</li>
+    </ul>
+  </section>
+  
+  <!-- Rodapé -->
+  <footer>
+    <p>Todos os direitos reservados &copy; 2023 Nossa empresa</p>
+  </footer>
