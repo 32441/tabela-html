@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu site</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        background-color: purple;
+      }
+      header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+  }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+
+  .valor {
+    width: 50%;
+  }
+
+  .titulo {
+    width: 50%;
+    text-align: center;
+  }
+
+  .cta {
+    background-color: white;
+    color: purple;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color: gray;
+    height: 50px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Quem sou eu</a>
+      <a href="#">Portifólio</a>
+      <a href="#">Meu processo</a>
+      <a href="#">Orçamento</a>
+    </nav>
+  </header>
+  <section class="valor">
+    <h2>Proposta de valor</h2>
+    <p>"UMA PROPOSTA"</p>
+  </section>
+  <section>
+    <h1>O que faço de melhor</h1>
+    <p>Predicado 1</p>
+    <p>Predicado 2</p>
+    <p>Predicado 3</p>
+    <p>Predicado 4</p>
+  </section>
+  <section class="titulo">
+    <h2>Eu sou um título</h2>
+    <button class="cta">BOTÃO</button>
+  </section>
+  <footer></footer>
+</body>
+</html>
