@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edilson L. Neto - Estudante de Programação</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1, h2, h3 {
+        margin-top: 0;
+    }
+
+    /* Estilos da barra de navegação */
+    .navbar {
+        background-color: #360a5a;
+        color: #fbff0b;;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    /* Estilos do conteúdo */
+    .container {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Estilos do rodapé */
+    .footer {
+        background-color: #4d098d;
+        color: #fbff0b;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+
+    /* Estilos das seções */
+    section {
+        margin-top: 50px;
+    }
+
+    /* Estilos da seção de serviços */
+    .services {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .service {
+        margin: 10px;
+        padding: 20px;
+        background-color: #4d098d;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #fbff0b;
+    }
+
+    .service img {
+        max-width: 100%;
+    }
+
+    /* Estilos da seção de portfólio */
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .project {
+        margin: 10px;
+        padding: 20px;
+        background-color: #4d098d;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #fbff0b;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+
+    /* Estilos da seção de contatos */
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .contact {
+        margin: 10px;
+        padding: 20px;
+        background-color:  #4d098d;
+        text-align: center;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px #fbff0b;
+    }
+
+    .contact img {
+        max-width: 100%;
+    }
+
+    /* Estilos da seção principal */
+    .hero {
+        background-color: #4d098d;
+        color: #fbff0b;
+        text-align: center;
+        padding: 50px;
+        margin-top: 50px;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Edilson L. Neto</h1>
+        <nav>
+            <a href="#hero">Principal</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contacts">Contatos</a>
+        </nav>
+    </div>
+    <div class="container">
+        <section class="hero" id="hero">
+            <h1>Edilson L. Neto</h1>
+            <h2>Estudante de Programação</h2>
+        </section>
+
+        <section class="services" id="services">
+            <div class="service">
+                <h3>Desenvolvimento Web</h3>
+                <p> Olá! Sou um estudante de Ciências da Computação iniciante e gostaria de falar sobre meu estudo de desenvolvimento web até agora.
+                    Comecei a estudar desenvolvimento web há alguns meses e estou empolgado com todas as possibilidades que essa área oferece. No começo, confesso que achava um pouco complicado entender os conceitos básicos de HTML, CSS e JavaScript. Mas, com persistência e dedicação, consegui começar a desenvolver minhas primeiras páginas web
+                    Uma das coisas que mais me surpreendeu no desenvolvimento web é a possibilidade de criar coisas incríveis com poucas linhas de código. Por exemplo, com o CSS é possível alterar completamente a aparência de uma página, enquanto com o JavaScript podemos adicionar interatividade e dinamicidade.                                  Uma das coisas que me ajudou bastante no aprendizado foi utilizar tutoriais e cursos online. A internet está repleta de conteúdo de qualidade sobre desenvolvimento web, e sempre que tinha alguma dúvida ou dificuldade, conseguia encontrar uma explicação clara e objetiva.  
+                    Atualmente, estou estudando sobre frameworks como React e Angular, que permitem criar aplicações web mais complexas e escaláveis. Ainda tenho muito a aprender, mas estou animado com as possibilidades que essa área oferece.     
+                    Se você está pensando em começar a estudar desenvolvimento web, minha dica é começar com o básico e ir avançando aos poucos. Dedique-se a entender bem os conceitos de HTML, CSS e JavaScript e pratique bastante. Além disso, não tenha medo de errar - a melhor forma de aprender é tentando e corrigindo seus próprios erros.  
+                    No geral, o desenvolvimento web é uma área fascinante e desafiadora, e estou animado em continuar meu estudo e evolução nessa área.</p>
+            </div>
+            
+            <div class="service">
+                <h3>Desenvolvimento de Jogos</h3>
+                <p>Como estudante de ciência da computação, estou animado em aprender a criar jogos incríveis para outras pessoas jogarem.
+                    Sei que a criação de jogos pode ser um processo complexo, que requer habilidades de programação avançadas e um bom conhecimento de design e mecânica de jogos. No entanto, estou disposto a dedicar tempo e esforço para adquirir essas habilidades.
+                    Estou estudando linguagens de programação, como C# e Java, que são muito utilizadas na criação de jogos. Também estou aprendendo sobre engines de jogos, como a Unity e a Unreal Engine, que permitem criar jogos de alta qualidade de forma mais eficiente.
+                    Além disso, estou estudando sobre o design e mecânica de jogos, como criar personagens, níveis e sistemas de pontuação, para que eu possa criar jogos divertidos e envolventes.
+                    Um dos meus objetivos a longo prazo é criar meu próprio jogo e lançá-lo em plataformas como Steam ou consoles de jogos. Sei que isso exigirá muito trabalho e dedicação, mas estou animado com as possibilidades que essa área oferece.
+                    Se você também está interessado em se tornar um desenvolvedor de jogos, minha dica é começar estudando as linguagens de programação mais utilizadas na criação de jogos, e procurar cursos e tutoriais sobre design e mecânica de jogos. Além disso, é importante praticar bastante e buscar feedback para melhorar suas habilidades.
+                    No geral, ser um desenvolvedor e programador de jogos pode ser uma carreira desafiadora, mas também pode ser muito gratificante. Estou animado em continuar meu estudo e evolução nessa área e espero um dia criar jogos que possam proporcionar momentos de diversão e entretenimento para muitas pessoas.</p>
+            </div>
+        </section>  
+        
+        <body>
+            <img src = "C:\Users\NETO\Downloads\abstract-technology-hi-tech-background-banner-template-with-copy-space-vector.jpg"  width = "400x300">
+        </body>
